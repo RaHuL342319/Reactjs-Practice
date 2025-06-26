@@ -34,7 +34,7 @@ This repository contains various React practice projects and components, includi
 
 ## Reference Material
 
-- - **[Question set 1 React.js](Set-1/setone/)**
+- - **[Question set 1 React.js](Set-1/)**
 
 ## Notes
 
