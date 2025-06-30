@@ -10,9 +10,15 @@ type Props = {
 
 const BouquetPrice = ({ bouquet }: Props) => {
   return (
-    <div>
-      <h3> price of that bouquet that has rose in it: </h3>
-      <ul>{}</ul>
+    <div style={{ marginTop: "10px", border: "1px solid" }}>
+      <b> price of that bouquet that has rose in it: </b>
+      <ul>
+        {bouquet
+          .filter(({ flowers }) => flowers.includes("rose"))
+          .map((item) => (
+            <li>Price of bouquet with roses : {item.price}</li>
+          ))}
+      </ul>
     </div>
   );
 };
