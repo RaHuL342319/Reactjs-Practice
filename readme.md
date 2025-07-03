@@ -35,6 +35,11 @@ This repository contains various React practice projects and components, includi
 ## Reference Material
 
 - - **[Question set 1 React.js](Set-1/)**
+- - **[Question set 2 React.js](Set-2/)**
+- - **[Question set 3 React.js](Set-3/)**
+- - **[Question set 4 React.js](Set-4/)**
+- - **[Question set 5 React.js](Set-5/)**
+- - **[Question set 6 React.js](Set-6/)**
 
 ## Notes
 
