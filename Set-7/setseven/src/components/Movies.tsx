@@ -12,11 +12,7 @@ const Movies = () => {
   const [selectedYear, setSelectedYear] = useState<string>("all");
 
   // years array unique and sorted
-  const years = movies
-    ? Array.from(new Set(movies.map((movie) => movie.year))).sort(
-        (a, b) => a - b
-      )
-    : [];
+  const years = [2005, 2006, 2007, 2008, 2009];
 
   const handleYearChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const year = e.target.value;
